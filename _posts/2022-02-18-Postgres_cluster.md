@@ -1,5 +1,9 @@
-#  PgSql主从+keepalived高可用
-
+---
+layout: post
+title: PostgreSql高可用
+date: 2022-02-28
+tags: Postgres
+--- 
 
 
 # 一：基础集群环境搭建
@@ -18,7 +22,8 @@
 
 ### 1.2.1：环境架构
 
-![image-20220215221009887](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20220215221009887.png)
+
+![image](https://user-images.githubusercontent.com/99856327/154630680-47bc2779-970f-481c-86b9-e8fb82fecbd1.png)
 
 
 
@@ -102,7 +107,8 @@ psql (PostgreSQL) 12.0
 
 ```
 
-![image-20220215224626772](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20220215224626772.png)
+![image](https://user-images.githubusercontent.com/99856327/154630914-083108b4-6a87-4093-8d2e-091d1d356a3a.png)
+
 
 ```
 #创建相关文件夹
@@ -481,8 +487,9 @@ WantedBy=multi-user.target
 #查看keepalived服务VIP情况
 
 ```
+![image](https://user-images.githubusercontent.com/99856327/154631030-6739874e-f48f-48f5-9345-1193f5e4db0f.png)
 
-![image-20220216213648555](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20220216213648555.png)
+
 
 
 
@@ -497,14 +504,16 @@ waiting for server to shut down....... done
 server stopped
 #查看日志keepalived已停掉
 ```
+![image](https://user-images.githubusercontent.com/99856327/154631059-60bbdd1f-abbc-4fd9-ab41-f0721e19409a.png)
 
-![image-20220216214227813](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20220216214227813.png)
+
 
 
 
 #### 1.7.1.1：备库验证
 
-![image-20220216214545982](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20220216214545982.png)
+![image](https://user-images.githubusercontent.com/99856327/154631085-1fe88a7c-ef17-4df2-986d-4c2003be0a01.png)
+
 
 ```
 #VIP已飘逸到备库，进库查看备库是否变成主
