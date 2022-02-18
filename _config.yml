@@ -1,7 +1,7 @@
 # Basic
-title: 刘楚阳
+title: 刘楚阳-Linux-个人博客
 subtitle: 个人站
-description: 欢迎来到我的个人博客~
+description: 欢迎来到我的个人站~
 # 头像里面的标题
 avatarTitle: liuchuy
 # 头像里面的描述
@@ -63,7 +63,7 @@ blog_button:
 nav:
     - {title: 所有文章, description: archive, url: '/archive'}   
     - {title: 标签, description: tags, url: '/tags'}      
-    - {title: 技术支持, description: support, url: '/support'}      
+   # - {title: 技术支持, description: support, url: '/support'}      
     - {title: 关于我, description: about, url: '/about'}   
     
 
@@ -79,5 +79,3 @@ plugins:
   - jekyll-assets
   - another-jekyll-plugin
   - jekyll-admin
-
-
