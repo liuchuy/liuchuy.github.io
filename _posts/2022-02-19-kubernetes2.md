@@ -15,9 +15,10 @@ https://github.com/kubernetes/dashboard
 
 ### 1.1: 部署dashboard:
 
-![](D:\boke\images\posts\02_k8s\01\1.png)
+![](/images/posts/02_k8s/01/1.png)
 
-![](D:\boke\images\posts\02_k8s\01\2.png)
+
+![](/images/posts/02_k8s/01/2.png)
 
 ```
 root@k8s-master1:~# wget https://raw.githubusercontent.com/kubernetes/dashboard/v2.3.0/aio/deploy/recommended.yamlls
@@ -26,7 +27,8 @@ root@k8s-master1:~# wget https://raw.githubusercontent.com/kubernetes/dashboard/
 vim recommended.yaml
 ```
 
-![](D:\boke\images\posts\02_k8s\01\3.png)
+
+![](/images/posts/02_k8s/01/3.png)
 
 ```
 root@k8s-master1:~# cat admin-user.yaml 
@@ -54,7 +56,7 @@ root@k8s-master1:~# kubectl apply -f recommended.yaml
 root@k8s-master1:~# kubectl apply -f admin-user.yaml
 ```
 
-![](D:\boke\images\posts\02_k8s\01\4.png)
+![](/images/posts/02_k8s/01/4.png)
 
 ### 1.1.2: tocken登录dashboard:
 
@@ -79,9 +81,9 @@ namespace:  20 bytes
 
 ```
 
-![](D:\boke\images\posts\02_k8s\01\5.png)
+![](/images/posts/02_k8s/01/5.png)
 
-![](D:\boke\images\posts\02_k8s\01\6.png)
+![](/images/posts/02_k8s/01/6.png)
 
 ### 1.1.3: 这是token登录会话保持时间
 
@@ -115,13 +117,13 @@ docker run -d --restart=unless-stopped --name=kuboard -p 80:80/tcp -p 10081:1008
 密码：Kuboard123
 ```
 
-![](D:\boke\images\posts\02_k8s\01\7.png)
+![](/images/posts/02_k8s/01/7.png)
 
 
 
-![](D:\boke\images\posts\02_k8s\01\8.png)
+![](/images/posts/02_k8s/01/8.png)
 
-![](D:\boke\images\posts\02_k8s\01\9.png)
+![](/images/posts/02_k8s/01/9.png)
 
 
 
@@ -130,10 +132,9 @@ docker run -d --restart=unless-stopped --name=kuboard -p 80:80/tcp -p 10081:1008
 root@k8s-master1:~# cat ~/.kube/config
 ```
 
-![](D:\boke\images\posts\02_k8s\01\10.png)
+![](/images/posts/02_k8s/01/10.png)
 
-![](D:\boke\images\posts\02_k8s\01\11.png)
-
-![](D:\boke\images\posts\02_k8s\01\12.png)
+![](/images/posts/02_k8s/01/11.png)
+![](/images/posts/02_k8s/01/12.png)
 
 
