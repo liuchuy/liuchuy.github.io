@@ -28,7 +28,6 @@ http://dockone.io/article/3006
 
 见kubeadm安装k8s
 
-![](D:\boke\images\posts\02_k8s\00\1.png)
 ![](/images/posts/02_k8s\00\1.png)
 
 
