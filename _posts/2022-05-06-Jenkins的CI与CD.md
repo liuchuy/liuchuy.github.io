@@ -359,7 +359,7 @@ root@jenkinis:/apps/test-service# git commit -m "v1 version"
 
 ```
 
-![image-20220406113850840](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20220406113850840.png)
+![](/images/posts/04_Jenkins/00/21.png)
 
 
 
@@ -367,7 +367,7 @@ root@jenkinis:/apps/test-service# git commit -m "v1 version"
 
 
 
-![image-20220406113945429](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20220406113945429.png)
+![](/images/posts/04_Jenkins/00/22.png)
 
 
 
@@ -381,7 +381,7 @@ SNV与CVS
 
 
 
-![image-20220405221921473](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20220405221921473.png)
+![](/images/posts/04_Jenkins/00/23.png)
 
 
 
@@ -391,7 +391,7 @@ Gitlab与SVN的数据保存方式不一样，gitlab虽然也会在内部对数�
 
 
 
-![image-20220405222112289](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20220405222112289.png)
+![](/images/posts/04_Jenkins/00/24.png)
 
 
 
@@ -399,7 +399,7 @@ Gitlab与SVN的数据保存方式不一样，gitlab虽然也会在内部对数�
 
 使用git命令下载代码与提交代码等操作
 
-![image-20220405222254285](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20220405222254285.png)
+![](/images/posts/04_Jenkins/00/25.png)
 
 ```
 git config --global user.name "name" #设置全局用户名
@@ -432,7 +432,7 @@ git	checkout	devlop #切换分支
 
 远程仓库：多个开发共同协作提交代码的仓库，既gitlab服务器
 
-![image-20220405222309859](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20220405222309859.png)
+![](/images/posts/04_Jenkins/00/26.png)
 
 
 
@@ -474,7 +474,7 @@ root@gitlab:~# gitlab-ctl stop sidekiq #恢复数据之前停止服务
 root@gitlab:~# gitlab-rake gitlab:backup:restore BACKUP=备份文件名
 ```
 
-![image-20220406212832272](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20220406212832272.png)
+![](/images/posts/04_Jenkins/00/27.png)
 
 
 
@@ -492,11 +492,11 @@ root@gitlab:~# gitlab-ctl start unicorn
 
 在右上角的账户下拉框选Preferences然后左侧Preferences设置项，然后语言选择中文
 
-![image-20220406145242018](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20220406145242018.png)
+![](/images/posts/04_Jenkins/00/28.png)
 
 
 
-![image-20220406145318261](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20220406145318261.png)
+![](/images/posts/04_Jenkins/00/29.png)
 
 保存后刷新界面：
 
@@ -526,7 +526,7 @@ root@gitlab:~# gitlab-ctl start unicorn
 3.蓝绿发布对于增量升级有比较好的支持，但是对于涉及数据表结构变更等等不可逆转的升级，并不完全适用蓝绿发布来实现，需要结合一些业务的逻辑以及数据迁移与回滚的策略才可以完全满足需求
 ```
 
-![image-20220406214425223](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20220406214425223.png)
+![](/images/posts/04_Jenkins/00/30.png)
 
 
 
@@ -566,7 +566,7 @@ root@gitlab:~# gitlab-ctl start unicorn
 
 
 
-![image-20220406215418823](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20220406215418823.png)
+![](/images/posts/04_Jenkins/00/31.png)
 
 
 
@@ -640,7 +640,7 @@ Java HotSpot(TM) 64-Bit Server VM (build 25.191-b12, mixed mode)
 
 ```
 
-![image-20220407180920057](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20220407180920057.png)
+![](/images/posts/04_Jenkins/00/32.png)
 
 ## 3.5：部署keepalived：
 
@@ -791,7 +791,7 @@ http://192.168.48.88:9000/haproxy/haproxy-status
 
 
 
-![image-20220408112646845](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20220408112646845.png)
+![](/images/posts/04_Jenkins/00/33.png)
 
 
 
@@ -799,11 +799,11 @@ http://192.168.48.88:9000/haproxy/haproxy-status
 
 
 
-![image-20220408112746862](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20220408112746862.png)
+![](/images/posts/04_Jenkins/00/34.png)
 
 
 
-![image-20220408112755484](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20220408112755484.png)
+![](/images/posts/04_Jenkins/00/35.png)
 
 # 四：Jenkins部署于基础配置：
 
@@ -823,7 +823,7 @@ root@jenkins-2:/usr/local/src# java -jar jenkins-2.332.2.war &
 
 ### 4.1.2: 浏览器验证
 
-![image-20220408174222285](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20220408174222285.png)
+![](/images/posts/04_Jenkins/00/36.png)
 
 
 
@@ -864,21 +864,21 @@ tcp6       0      0 :::8080                 :::*                    LISTEN      
 
 
 
-![image-20220409125338307](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20220409125338307.png)
+![](/images/posts/04_Jenkins/00/37.png)
 
-![image-20220409125718166](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20220409125718166.png)
+
 
 
 
 ### 4.1.5: 创建jenkins管理员：
 
-![image-20220409130826062](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20220409130826062.png)
+![](/images/posts/04_Jenkins/00/38.png)
 
 
 
 ### 4.1.6：配置jenkins URL:
 
-![image-20220409130900005](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20220409130900005.png)
+![](/images/posts/04_Jenkins/00/39.png)
 
 
 
@@ -886,7 +886,7 @@ tcp6       0      0 :::8080                 :::*                    LISTEN      
 
 
 
-![image-20220409130934904](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20220409130934904.png)
+![](/images/posts/04_Jenkins/00/40.png)
 
 
 
@@ -894,7 +894,7 @@ tcp6       0      0 :::8080                 :::*                    LISTEN      
 
 
 
-![image-20220409131014182](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20220409131014182.png)
+![](/images/posts/04_Jenkins/00/41.png)
 
 
 
@@ -904,7 +904,7 @@ tcp6       0      0 :::8080                 :::*                    LISTEN      
 
 插件下载地址：http://updates.jenkins-ci.org/download/plugins
 
-![image-20220409153937505](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20220409153937505.png)
+![](/images/posts/04_Jenkins/00/42.png)
 
 
 
@@ -914,27 +914,27 @@ tcp6       0      0 :::8080                 :::*                    LISTEN      
 
 git和Blue Ocean
 
-![image-20220409154206864](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20220409154206864.png)
+![](/images/posts/04_Jenkins/00/43.png)
 
 
 
-![image-20220409154310339](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20220409154310339.png)
-
-
-
-
-
-![image-20220409154735023](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20220409154735023.png)
+![](/images/posts/04_Jenkins/00/44.png)
 
 
 
 
 
-![image-20220409154837301](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20220409154837301.png)
+![](/images/posts/04_Jenkins/00/45.png)
 
 
 
-![image-20220409154904799](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20220409154904799.png)
+
+
+![](/images/posts/04_Jenkins/00/46.png)
+
+
+
+![](/images/posts/04_Jenkins/00/47.png)
 
 
 
@@ -946,7 +946,7 @@ git和Blue Ocean
 
 Role-based: 基于角色的认证策略
 
-![image-20220409164657190](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20220409164657190.png)
+![](/images/posts/04_Jenkins/00/48.png)
 
 
 
@@ -956,7 +956,7 @@ jenkins-系统管理-管理用户
 
 
 
-![image-20220409165358274](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20220409165358274.png)
+![](/images/posts/04_Jenkins/00/49.png)
 
 
 
@@ -968,7 +968,7 @@ Jenkins-系统管理-全局安全配置
 
 改成角色认证
 
-![image-20220409170204747](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20220409170204747.png)
+![](/images/posts/04_Jenkins/00/50.png)
 
 
 
@@ -976,13 +976,13 @@ Jenkins-系统管理-全局安全配置
 
 jenkins-系统管理-Manage and Assign Roles(管理和分配角色)
 
-![image-20220409170601606](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20220409170601606.png)
+![](/images/posts/04_Jenkins/00/51.png)
 
 #### 4.1.9.5： 添加角色：
 
 填写角色名称并点击add:
 
-![image-20220409171012592](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20220409171012592.png)
+![](/images/posts/04_Jenkins/00/52.png)
 
 
 
@@ -992,7 +992,7 @@ jenkins-系统管理-Manage and Assign Roles(管理和分配角色)
 
 单用户授权
 
-![image-20220409171932266](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20220409171932266.png)
+![](/images/posts/04_Jenkins/00/53.png)
 
 
 
@@ -1000,17 +1000,17 @@ jenkins-系统管理-Manage and Assign Roles(管理和分配角色)
 
 单用户：
 
-![image-20220409172600021](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20220409172600021.png)
+![](/images/posts/04_Jenkins/00/54.png)
 
 
 
 #### 4.1.9.8：测试用户登录：
 
-![image-20220409172705660](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20220409172705660.png)
+![](/images/posts/04_Jenkins/00/55.png)
 
 
 
-![image-20220409172719556](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20220409172719556.png)
+![](/images/posts/04_Jenkins/00/56.png)
 
 
 
@@ -1028,7 +1028,7 @@ ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCxFKLx+h7K23InQwyTecR+T2xBzb4kMjgI8G1NXcS0
 
 
 
-![image-20220409193758436](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20220409193758436.png)
+![](/images/posts/04_Jenkins/00/57.png)
 
 ### 4.2.3: 创建ssh key
 
@@ -1036,7 +1036,7 @@ ssh key只用于免认证获取代码
 
 
 
-![image-20220409193925843](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20220409193925843.png)
+![](/images/posts/04_Jenkins/00/58.png)
 
 
 
@@ -1046,7 +1046,7 @@ ssh key只用于免认证获取代码
 
 测试可以不使用用户名密码后直接获取代码
 
-![image-20220409194357344](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20220409194357344.png)
+![](/images/posts/04_Jenkins/00/59.png)
 
 
 
@@ -1054,27 +1054,27 @@ ssh key只用于免认证获取代码
 
 ### 4.3.1：配置git项目地址和用户：
 
-![image-20220409222519659](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20220409222519659.png)
+![](/images/posts/04_Jenkins/00/60.png)
 
 
 
 
 
-![image-20220409222611366](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20220409222611366.png)
+![](/images/posts/04_Jenkins/00/61.png)
 
 
 
-![image-20220409222646905](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20220409222646905.png)
+![](/images/posts/04_Jenkins/00/62.png)
 
 
 
-![image-20220409222708517](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20220409222708517.png)
+![](/images/posts/04_Jenkins/00/63.png)
 
 
 
 选择实际场景的分支
 
-![image-20220409222835965](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20220409222835965.png)
+![](/images/posts/04_Jenkins/00/64.png)
 
 
 
@@ -1084,11 +1084,11 @@ ssh key只用于免认证获取代码
 
 #### 4.3.2.2：验证构建结果：
 
-![image-20220409223010812](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20220409223010812.png)
+![](/images/posts/04_Jenkins/00/65.png)
 
 #### 4.3.2.3：服务器验证数据：
 
-![image-20220409223128893](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20220409223128893.png)
+![](/images/posts/04_Jenkins/00/66.png)
 
 
 
@@ -1100,11 +1100,11 @@ ssh key只用于免认证获取代码
 
 
 
-![image-20220409223238984](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20220409223238984.png)
+![](/images/posts/04_Jenkins/00/67.png)
 
 
 
-![image-20220409223309515](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20220409223309515.png)
+![](/images/posts/04_Jenkins/00/68.png)
 
 ## 4.4：构建触发器（钩子）：
 
@@ -1122,13 +1122,13 @@ ssh key只用于免认证获取代码
 
 
 
-![image-20220409224017505](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20220409224017505.png)
+![](/images/posts/04_Jenkins/00/69.png)
 
 
 
 ### 4.4.2：gitlab定义分支名称并创建:
 
-![image-20220409224118543](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20220409224118543.png)
+![](/images/posts/04_Jenkins/00/70.png)
 
 
 
@@ -1154,13 +1154,13 @@ https://www.jenkins.io/security/advisory/2018-05-09/#SECURITY-263
 
 
 
-![image-20220410142948904](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20220410142948904.png)
+![](/images/posts/04_Jenkins/00/71.png)
 
 
 
 ### 4.4.5: jenkins新建develop job:
 
-![image-20220410143236622](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20220410143236622.png)
+![](/images/posts/04_Jenkins/00/72.png)
 
 
 
@@ -1170,7 +1170,7 @@ https://www.jenkins.io/security/advisory/2018-05-09/#SECURITY-263
 
 
 
-![image-20220410143330755](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20220410143330755.png)
+![](/images/posts/04_Jenkins/00/73.png)
 
 
 
@@ -1183,7 +1183,7 @@ root@jenkins:~# openssl rand -hex 12
 7506dcfcf8baf073a9e8eff1
 ```
 
-![image-20220410143529305](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20220410143529305.png)
+![](/images/posts/04_Jenkins/00/74.png)
 
 ### 4.4.8：jenkins验证分支job配置文件：
 
@@ -1191,7 +1191,7 @@ root@jenkins:~# openssl rand -hex 12
 root@jenkins:~# vim /var/lib/jenkins/jobs/python-app1/config.xml
 ```
 
-![image-20220410143641711](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20220410143641711.png)
+![](/images/posts/04_Jenkins/00/75.png)
 
 
 
@@ -1213,7 +1213,7 @@ root@jenkins:~# curl http://192.168.48.163:8080/view/all/job/python-app1/build?t
 
 
 
-![image-20220410144003707](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20220410144003707.png)
+![](/images/posts/04_Jenkins/00/76.png)
 
 
 
@@ -1242,23 +1242,23 @@ jenkins-系统管理-节点管理-新建节点：
 
 
 
-![image-20220410154441671](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20220410154441671.png)
+![](/images/posts/04_Jenkins/00/77.png)
 
 部分jenkins-slave信息
 
-![image-20220410154835606](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20220410154835606.png)
+![](/images/posts/04_Jenkins/00/78.png)
 
 
 
 启动方式选择ssh-添加jenkins
 
-![image-20220410154914348](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20220410154914348.png)
+![](/images/posts/04_Jenkins/00/79.png)
 
 
 
 ### 4.5.3：添加slave认证凭据:
 
-![image-20220410155025602](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20220410155025602.png)
+![](/images/posts/04_Jenkins/00/80.png)
 
 
 
@@ -1266,13 +1266,13 @@ jenkins-系统管理-节点管理-新建节点：
 
 选择不验证证书
 
-![image-20220410155122771](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20220410155122771.png)
+![](/images/posts/04_Jenkins/00/81.png)
 
 ### 4.5.4: jenkins slave创建日志
 
 
 
-![image-20220410160637159](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20220410160637159.png)
+![](/images/posts/04_Jenkins/00/82.png)
 
 
 
@@ -1280,7 +1280,7 @@ jenkins-系统管理-节点管理-新建节点：
 
 
 
-![image-20220410160741099](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20220410160741099.png)
+![](/images/posts/04_Jenkins/00/83.png)
 
 
 
@@ -1290,7 +1290,7 @@ jenkins-系统管理-节点管理-新建节点：
 
 
 
-![image-20220410163105447](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20220410163105447.png)
+![](/images/posts/04_Jenkins/00/84.png)
 
 
 
@@ -1298,7 +1298,7 @@ jenkins-系统管理-节点管理-新建节点：
 
 
 
-![image-20220410163642133](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20220410163642133.png)
+![](/images/posts/04_Jenkins/00/85.png)
 
 
 
@@ -1338,7 +1338,7 @@ step：步骤，step是jenkins pipline是基本的操作单元，从在服务器
 
 
 
-![image-20220410165754626](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20220410165754626.png)
+![](/images/posts/04_Jenkins/00/86.png)
 
 
 
@@ -1346,13 +1346,13 @@ step：步骤，step是jenkins pipline是基本的操作单元，从在服务器
 
 
 
-![image-20220410171827013](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20220410171827013.png)
+![](/images/posts/04_Jenkins/00/87.png)
 
 #### 4.6.3.3：执行Pipline job:
 
 
 
-![image-20220410171956104](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20220410171956104.png)
+![](/images/posts/04_Jenkins/00/88.png)
 
 
 
@@ -1362,13 +1362,13 @@ step：步骤，step是jenkins pipline是基本的操作单元，从在服务器
 
 
 
-![image-20220410194403082](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20220410194403082.png)
+![](/images/posts/04_Jenkins/00/89.png)
 
 
 
 生成流水线脚本：
 
-![image-20220410194629323](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20220410194629323.png)
+![](/images/posts/04_Jenkins/00/90.png)
 
 
 
@@ -1399,7 +1399,7 @@ node {
 
 
 
-![image-20220410195058597](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20220410195058597.png)
+![](/images/posts/04_Jenkins/00/91.png)
 
 
 
@@ -1407,7 +1407,7 @@ node {
 
 
 
-![image-20220410195141350](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20220410195141350.png)
+![](/images/posts/04_Jenkins/00/92.png)
 
 
 
@@ -1415,7 +1415,7 @@ node {
 
 
 
-![image-20220410195232875](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20220410195232875.png)
+![](/images/posts/04_Jenkins/00/93.png)
 
 
 
@@ -1479,7 +1479,7 @@ node {
 
 
 
-![image-20220410203018965](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20220410203018965.png)
+![](/images/posts/04_Jenkins/00/94.png)
 
 
 
@@ -1540,9 +1540,7 @@ node ("jenkins-slave1") {
 
 #### 4.6.3.13：验证slave执行构建
 
-
-
-![image-20220410204014066](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20220410204014066.png)
+![](/images/posts/04_Jenkins/00/95.png)
 
 
 
@@ -1633,11 +1631,11 @@ root@jenkins-slave:~/port# git commit -m "v5 add add Jenkinsfile"
 root@jenkins-slave:~/port# git push
 ```
 
-![image-20220410205611041](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20220410205611041.png)
+![](/images/posts/04_Jenkins/00/96.png)
 
 
 
-![image-20220410205801288](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20220410205801288.png)
+![](/images/posts/04_Jenkins/00/97.png)
 
 
 
@@ -1645,15 +1643,13 @@ root@jenkins-slave:~/port# git push
 
 视图可以用于归纳job进行分组显示，比如将一个业务的视图放在一个视图显示，安装完成build pipeline插件之后将会有一个+号用于创建视图
 
-
-
-![image-20220412203700769](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20220412203700769.png)
+![](/images/posts/04_Jenkins/00/98.png)
 
 ### 4.7.1: 安装build pipeline插件：
 
 
 
-![image-20220412203808404](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20220412203808404.png)
+![](/images/posts/04_Jenkins/00/99.png)
 
 
 
@@ -1661,13 +1657,13 @@ root@jenkins-slave:~/port# git push
 
 
 
-![image-20220412203956035](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20220412203956035.png)
+![](/images/posts/04_Jenkins/00/100.png)
 
 
 
 ### 4.7.2：创建新的视图：
 
-![image-20220412204039343](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20220412204039343.png)
+![](/images/posts/04_Jenkins/00/101.png)
 
 
 
@@ -1675,11 +1671,11 @@ root@jenkins-slave:~/port# git push
 
 
 
-![image-20220412204455796](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20220412204455796.png)
+![](/images/posts/04_Jenkins/00/102.png)
 
 
 
-![image-20220412204621653](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20220412204621653.png)
+![](/images/posts/04_Jenkins/00/103.png)
 
 
 
@@ -1687,7 +1683,7 @@ root@jenkins-slave:~/port# git push
 
 
 
-![image-20220412204722923](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20220412204722923.png)
+![](/images/posts/04_Jenkins/00/104.png)
 
 
 
@@ -1701,7 +1697,7 @@ root@jenkins-slave:~/port# git push
 
 #### 4.7.5.1：定义视图名称
 
-![image-20220412205212616](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20220412205212616.png)
+![](/images/posts/04_Jenkins/00/105.png)
 
 
 
@@ -1709,13 +1705,13 @@ root@jenkins-slave:~/port# git push
 
 
 
-![image-20220412205300962](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20220412205300962.png)
+![](/images/posts/04_Jenkins/00/105-1.png)
 
 #### 4.7.5.3：最终状态：
 
 
 
-![image-20220412205344496](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20220412205344496.png)
+![](/images/posts/04_Jenkins/00/106.png)
 
 
 
@@ -1742,7 +1738,7 @@ SonarQube是一个用于代码质量管理的开放平台，通过插件机制�
 
 
 
-![image-20220412211006305](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20220412211006305.png)
+![](/images/posts/04_Jenkins/00/107.png)
 
 
 
@@ -1848,7 +1844,7 @@ Started SonarQube.
 
 
 
-![image-20220416114647696](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20220416114647696.png)
+![](/images/posts/04_Jenkins/00/108.png)
 
 
 
@@ -1856,7 +1852,7 @@ Started SonarQube.
 
 
 
-![image-20220416114731921](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20220416114731921.png)
+![](/images/posts/04_Jenkins/00/109.png)
 
 
 
@@ -1868,13 +1864,13 @@ http://192.168.48.165:9000
 
 
 
-![image-20220416114950535](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20220416114950535.png)
+![](/images/posts/04_Jenkins/00/110.png)
 
 #### 5.1.2.6: 安装中文插件
 
 
 
-![image-20220416130609210](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20220416130609210.png)
+![](/images/posts/04_Jenkins/00/111.png)
 
 
 
@@ -1921,7 +1917,7 @@ sonar.sourceEncoding=UTF-8
 
 
 
-![image-20220416132232619](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20220416132232619.png)
+![](/images/posts/04_Jenkins/00/112.png)
 
 
 
@@ -1960,7 +1956,7 @@ root@jenkins:/usr/local/src/sonar-examples-master/projects/languages/php/php-son
 
 
 
-![image-20220416133013194](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20220416133013194.png)
+![](/images/posts/04_Jenkins/00/113.png)
 
 
 
@@ -1968,7 +1964,7 @@ root@jenkins:/usr/local/src/sonar-examples-master/projects/languages/php/php-son
 
 
 
-![image-20220416133100768](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20220416133100768.png)
+![](/images/posts/04_Jenkins/00/114.png)
 
 
 
@@ -2006,7 +2002,7 @@ root@jenkins:/opt/m43-app1# /usr/local/sonarscanner/bin/sonar-scanner
 
 
 
-![image-20220416140425504](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20220416140425504.png)
+![](/images/posts/04_Jenkins/00/115.png)
 
 
 
@@ -2016,7 +2012,7 @@ root@jenkins:/opt/m43-app1# /usr/local/sonarscanner/bin/sonar-scanner
 
 安装插件SonarQube Scanner, 然后配置SonarQube server，系统管理-插件管理
 
-![image-20220416140844246](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20220416140844246.png)
+![](/images/posts/04_Jenkins/00/116.png)
 
 
 
@@ -2028,7 +2024,7 @@ jenkins-系统管理-系统设置-sonarQube servers:
 
 
 
-![image-20220416152056385](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20220416152056385.png)
+![](/images/posts/04_Jenkins/00/117.png)
 
 
 
@@ -2040,7 +2036,7 @@ jenkins-系统管理-全局工具配置：
 
 ### 5.3.2.1：手动指定绝对路径：
 
-![image-20220416152506726](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20220416152506726.png)
+![](/images/posts/04_Jenkins/00/118.png)
 
 ### 5.3.3：配置扫描
 
@@ -2070,19 +2066,17 @@ sonar.sourceEncoding=UTF-8
 
 
 
-
-
-![image-20220416150236144](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20220416150236144.png)
+![](/images/posts/04_Jenkins/00/119.png)
 
 
 
 
 
-![ ](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20220416150531247.png)
+![](/images/posts/04_Jenkins/00/120.png)
 
 
 
-![image-20220416150637302](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20220416150637302.png)
+![](/images/posts/04_Jenkins/00/121.png)
 
 
 
@@ -2113,33 +2107,27 @@ ssh test@192.168.48.141 "/etc/init.d/tomcat start"
 
 
 
-![image-20220416153141721](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20220416153141721.png)
+![](/images/posts/04_Jenkins/00/122.png)
 
 
 
 
 
-![image-20220416153158214](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20220416153158214.png)
+![](/images/posts/04_Jenkins/00/123.png)
 
 
 
 
 
-![image-20220416153217294](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20220416153217294.png)
+![](/images/posts/04_Jenkins/00/124.png)
 
 
 
-![image-20220416153224458](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20220416153224458.png)
+![](/images/posts/04_Jenkins/00/125.png)
 
 
 
-
-
-### ![image-20220416145122545](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20220416145122545.png)
-
-
-
-
+![](/images/posts/04_Jenkins/00/126.png)
 
 
 
