@@ -1,12 +1,3 @@
-```
-layout: post
-title: kubernetes之资源清单
-date: 2022-07-29
-tags: kubernetes
-```
-
-
-
 # 一：资源清单
 
 ## 2.1：k8s存在哪些资源
