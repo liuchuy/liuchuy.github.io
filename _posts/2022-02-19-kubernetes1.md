@@ -24,11 +24,7 @@ http://dockone.io/article/3006
 
 安装实际需求，进行规划于部署相应的单master或者多master的高可用k8s运行环境
 
-### 1.1.1：单master
 
-见kubeadm安装k8s
-
-![](/images/posts/02_k8s/00/1.png)
 
 
 ### 1.1.3: 服务器统计：
