@@ -1,6 +1,6 @@
 ---
 layout: post
-title: ansible初始化kubernetes集群
+title: kubernetes之ansible部署
 date: 2022-02-19
 tags: kubernetes
 ---
