@@ -1,7 +1,3 @@
-layout: post
-title: Prometheus监控平台
-date: 2022-05-08
-
 ## tags: Prometheus
 
 # 一：项目名称：Promehtues监控平台部署
